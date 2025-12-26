@@ -1,13 +1,15 @@
-import logging 
+import logging
 import os
 from datetime import datetime
-LOG_FILE=f"{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.log"
-log_path=os.path.join("networksecurity","logging",LOG_FILE)
-os.makedirs(os.path.dirname(log_path),exist_ok=True)
-LOG_FILE_PATH=os.path.join(log_path)
+
+LOG_FILE = f"{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.log"
+log_path = os.path.join("networksecurity", "logging", LOG_FILE)
+os.makedirs(os.path.dirname(log_path), exist_ok=True)
 
 logging.basicConfig(
-    filename=LOG_FILE_PATH,
+    filename=log_path,
     format="[%(asctime)s] %(levelname)s - %(message)s",
-    level=logging.INFO)
+    level=logging.INFO
+)
 
+logger = logging.getLogger()
