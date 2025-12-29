@@ -1,0 +1,5 @@
+[2025-12-29 14:46:08,729] INFO - Data Ingestion initialized
+[2025-12-29 14:46:08,729] INFO - Initiate the data ingestion
+[2025-12-29 14:46:09,418] INFO - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 695246d94d5279ab2f462760, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-e96qpa7-shard-00-00.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-e96qpa7-shard-00-01.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-e96qpa7-shard-00-02.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "695246d94d5279ab2f462760"}, "remainingTimeMS": 30}
+[2025-12-29 14:46:14,371] INFO - Data shape from MongoDB: (11055, 31)
+[2025-12-29 14:46:14,482] INFO - Data Ingestion Completed

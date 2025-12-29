@@ -1,0 +1,22 @@
+artifact_path: file:///D:/Network Security ETOE Project/mlruns/0/models/m-10c1ae925a1e429faf12e88fbd0d4223/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.8.1
+model_id: m-10c1ae925a1e429faf12e88fbd0d4223
+model_size_bytes: 13534079
+model_uuid: m-10c1ae925a1e429faf12e88fbd0d4223
+prompts: null
+run_id: 84d37999b47e4825a1213bc0bd75f611
+utc_time_created: '2025-12-29 10:06:49.795291'

@@ -1,0 +1,11 @@
+[2025-12-29 14:42:52,667] INFO - Data Ingestion initialized
+[2025-12-29 14:42:52,667] INFO - Initiate the data ingestion
+[2025-12-29 14:42:52,940] INFO - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 69524614792bae8040db5822, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-e96qpa7-shard-00-00.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-e96qpa7-shard-00-01.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-e96qpa7-shard-00-02.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "69524614792bae8040db5822"}, "remainingTimeMS": 30}
+[2025-12-29 14:42:56,580] INFO - Data shape from MongoDB: (11055, 31)
+[2025-12-29 14:42:56,688] INFO - Data Ingestion Completed
+[2025-12-29 14:42:56,693] INFO - Data Validation Started
+[2025-12-29 14:42:56,864] INFO - Data Validation Completed
+[2025-12-29 14:42:56,925] INFO - Entered the save_object method of MainUtils class
+[2025-12-29 14:42:56,928] INFO - Exited the save_object method of MainUtils class
+[2025-12-29 14:42:56,929] INFO - Data Transformation Completed
+[2025-12-29 14:42:56,930] INFO - Model Training Started

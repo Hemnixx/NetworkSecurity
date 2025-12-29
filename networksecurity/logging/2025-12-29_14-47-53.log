@@ -1,0 +1,15 @@
+[2025-12-29 14:47:54,087] INFO - Data Ingestion initialized
+[2025-12-29 14:47:54,087] INFO - Initiate the data ingestion
+[2025-12-29 14:47:54,858] INFO - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 69524742c88932f26a78ebaf, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-e96qpa7-shard-00-00.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-e96qpa7-shard-00-01.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-e96qpa7-shard-00-02.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "69524742c88932f26a78ebaf"}, "remainingTimeMS": 30}
+[2025-12-29 14:47:59,989] INFO - Data shape from MongoDB: (11055, 31)
+[2025-12-29 14:48:00,101] INFO - Data Ingestion Completed
+[2025-12-29 14:48:00,106] INFO - Data Validation Started
+[2025-12-29 14:48:00,274] INFO - Data Validation Completed
+[2025-12-29 14:48:00,337] INFO - Entered the save_object method of MainUtils class
+[2025-12-29 14:48:00,340] INFO - Exited the save_object method of MainUtils class
+[2025-12-29 14:48:00,341] INFO - Data Transformation Completed
+[2025-12-29 14:48:00,341] INFO - Model Training Started
+[2025-12-29 14:50:52,245] INFO - Entered the save_object method of MainUtils class
+[2025-12-29 14:50:52,245] INFO - Exited the save_object method of MainUtils class
+[2025-12-29 14:50:52,246] INFO - Entered the save_object method of MainUtils class
+[2025-12-29 14:50:52,286] INFO - Exited the save_object method of MainUtils class

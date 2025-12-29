@@ -1,0 +1,17 @@
+[2025-12-29 15:33:49,127] INFO - Data Ingestion initialized
+[2025-12-29 15:33:49,127] INFO - Initiate the data ingestion
+[2025-12-29 15:33:49,901] INFO - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 69525205fdde1e1f6a54b213, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-e96qpa7-shard-00-00.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-e96qpa7-shard-00-01.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-e96qpa7-shard-00-02.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "69525205fdde1e1f6a54b213"}, "remainingTimeMS": 30}
+[2025-12-29 15:33:59,025] INFO - Data shape from MongoDB: (11055, 31)
+[2025-12-29 15:33:59,133] INFO - Data Ingestion Completed
+[2025-12-29 15:33:59,138] INFO - Data Validation Started
+[2025-12-29 15:33:59,307] INFO - Data Validation Completed
+[2025-12-29 15:33:59,370] INFO - Entered the save_object method of MainUtils class
+[2025-12-29 15:33:59,373] INFO - Exited the save_object method of MainUtils class
+[2025-12-29 15:33:59,374] INFO - Data Transformation Completed
+[2025-12-29 15:33:59,374] INFO - Model Training Started
+[2025-12-29 15:37:01,295] INFO - Entered the save_object method of MainUtils class
+[2025-12-29 15:37:01,296] INFO - Exited the save_object method of MainUtils class
+[2025-12-29 15:37:01,296] INFO - Entered the save_object method of MainUtils class
+[2025-12-29 15:37:01,315] INFO - Exited the save_object method of MainUtils class
+[2025-12-29 15:37:01,315] INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='artifact\\2025-12-29_15-33-47\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9915573186857899, precision_score=0.9888415500101441, recall_score=0.9942880456956344), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9711348359035191, precision_score=0.9638932496075353, recall_score=0.9784860557768924))
+[2025-12-29 15:37:01,317] INFO - Model Training Completed
