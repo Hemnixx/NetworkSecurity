@@ -1,0 +1,5 @@
+[2025-12-28 19:03:37,726] INFO - Data Ingestion component initialized
+[2025-12-28 19:03:37,726] INFO - Initiate the data ingestion
+[2025-12-28 19:03:38,444] INFO - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 695131b28e115c61e28ce155, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-e96qpa7-shard-00-00.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-e96qpa7-shard-00-01.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-e96qpa7-shard-00-02.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "695131b28e115c61e28ce155"}, "remainingTimeMS": 30}
+[2025-12-28 19:03:42,624] INFO - Dataframe shape: (0, 0)
+[2025-12-28 19:03:42,632] INFO - Feature store saved at Artifacts\2025-12-28_19-03-37\data_ingestion\feature_store\phisingData.csv

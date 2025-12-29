@@ -6,6 +6,8 @@ certifi
 pymongo[srv]==4.7.2
 scikit-learn
 dill
-pyaml
+pyyaml
+
+
 ##-e .
 

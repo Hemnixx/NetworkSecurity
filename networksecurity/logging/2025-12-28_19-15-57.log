@@ -1,0 +1,22 @@
+[2025-12-28 19:15:58,095] INFO - Data Ingestion component initialized
+[2025-12-28 19:15:58,095] INFO - Initiate the data ingestion
+[2025-12-28 19:15:58,808] INFO - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 69513496aa7ec1e8bf468ede, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-e96qpa7-shard-00-00.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-e96qpa7-shard-00-01.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-e96qpa7-shard-00-02.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "69513496aa7ec1e8bf468ede"}, "remainingTimeMS": 30}
+[2025-12-28 19:16:05,614] INFO - Dataframe shape: (11055, 31)
+[2025-12-28 19:16:05,668] INFO - Feature store saved at artifact\2025-12-28_19-15-57\data_ingestion\feature_store\phisingData.csv
+[2025-12-28 19:16:05,722] INFO - Data ingestion completed successfully
+[2025-12-28 19:16:05,723] INFO - Data Ingestion Completed
+[2025-12-28 19:16:05,728] INFO - Data Validation Started
+[2025-12-28 19:16:05,805] INFO - Required number of columns: 31
+[2025-12-28 19:16:05,805] INFO - Dataframe columns: 31
+[2025-12-28 19:16:05,805] INFO - Required number of columns: 31
+[2025-12-28 19:16:05,805] INFO - Dataframe columns: 31
+[2025-12-28 19:16:05,984] INFO - Data validation completed successfully
+[2025-12-28 19:16:05,984] INFO - Data Validation Completed
+[2025-12-28 19:16:05,984] INFO - Entered initiate_data_transformation method of DataTransformation class
+[2025-12-28 19:16:05,985] INFO - Starting data transformation
+[2025-12-28 19:16:06,064] INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[2025-12-28 19:16:06,064] INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-12-28 19:16:06,077] INFO - Entered the save_object method of MainUtils class
+[2025-12-28 19:16:06,080] INFO - Exited the save_object method of MainUtils class
+[2025-12-28 19:16:06,080] INFO - Entered the save_object method of MainUtils class
+[2025-12-28 19:16:06,083] INFO - Exited the save_object method of MainUtils class
