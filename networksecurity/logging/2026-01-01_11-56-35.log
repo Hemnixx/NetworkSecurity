@@ -1,0 +1,6 @@
+[2026-01-01 11:56:53,285] INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-01-01 11:56:53,293] INFO - Accessing as Hemnixx
+[2026-01-01 11:56:54,737] INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Hemnixx/NetworkSecurity "HTTP/1.1 200 OK"
+[2026-01-01 11:56:57,082] INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-01-01 11:56:57,084] INFO - Initialized MLflow to track repo "Hemnixx/NetworkSecurity"
+[2026-01-01 11:56:57,085] INFO - Repository Hemnixx/NetworkSecurity initialized!
