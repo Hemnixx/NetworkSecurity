@@ -1,0 +1,26 @@
+[2025-12-30 15:27:44,049] INFO - HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+[2025-12-30 15:27:45,482] INFO - HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+[2025-12-30 15:27:47,088] INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-12-30 15:27:47,094] INFO - Accessing as Hemnixx
+[2025-12-30 15:27:48,534] INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Hemnixx/NetworkSecurity "HTTP/1.1 200 OK"
+[2025-12-30 15:27:49,813] INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-12-30 15:27:49,815] INFO - Initialized MLflow to track repo "Hemnixx/NetworkSecurity"
+[2025-12-30 15:27:49,820] INFO - Repository Hemnixx/NetworkSecurity initialized!
+[2025-12-30 15:27:49,820] INFO - Data Ingestion initialized
+[2025-12-30 15:27:49,820] INFO - Initiate the data ingestion
+[2025-12-30 15:27:50,666] INFO - {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 6953a21ef612d88ca6489972, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-e96qpa7-shard-00-00.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-e96qpa7-shard-00-01.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-e96qpa7-shard-00-02.sq72tld.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6953a21ef612d88ca6489972"}, "remainingTimeMS": 30}
+[2025-12-30 15:27:55,393] INFO - Data shape from MongoDB: (11055, 31)
+[2025-12-30 15:27:55,522] INFO - Data Ingestion Completed
+[2025-12-30 15:27:55,542] INFO - Data Validation Started
+[2025-12-30 15:27:55,818] INFO - Data Validation Completed
+[2025-12-30 15:27:55,921] INFO - Entered the save_object method of MainUtils class
+[2025-12-30 15:27:55,926] INFO - Exited the save_object method of MainUtils class
+[2025-12-30 15:27:55,928] INFO - Data Transformation Completed
+[2025-12-30 15:27:55,928] INFO - Model Training Started
+[2025-12-30 15:31:17,067] WARNING - Retrying (Retry(total=6, connect=7, read=7, redirect=7, status=7)) after connection broken by 'SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)'))': /Hemnixx/NetworkSecurity.mlflow/api/2.0/mlflow/runs/create
+[2025-12-30 15:33:27,084] INFO - Entered the save_object method of MainUtils class
+[2025-12-30 15:33:27,084] INFO - Exited the save_object method of MainUtils class
+[2025-12-30 15:33:27,084] INFO - Entered the save_object method of MainUtils class
+[2025-12-30 15:33:27,088] INFO - Exited the save_object method of MainUtils class
+[2025-12-30 15:33:27,088] INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='artifact\\2025-12-30_15-27-28\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9914495114006515, precision_score=0.9894351889475823, recall_score=0.9934720522235823), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9686880697582243, precision_score=0.9637223974763407, recall_score=0.9737051792828685))
+[2025-12-30 15:33:27,089] INFO - Model Training Completed

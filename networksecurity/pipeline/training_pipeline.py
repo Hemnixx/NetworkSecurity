@@ -1,5 +1,5 @@
 from networksecurity.exception.exception import NetworkSecurityException
-from networksecurity.logging.logger import logger
+from networksecurity.logging.logger import logging 
 
 from networksecurity.components.data_ingestion import DataIngestion
 from networksecurity.components.data_validation import DataValidation
@@ -21,7 +21,7 @@ from networksecurity.entity.artifact_entity import (
     ModelTrainerArtifact,
 )
 
-from networksecurity.constants.training_pipeline import (
+from networksecurity.constant.training_pipeline import (
     TRAINING_BUCKET_NAME,
     SAVED_MODEL_DIR
 )
@@ -41,7 +41,7 @@ class TrainingPipeline:
                 self.training_pipeline_config
             )
 
-            logger.info("Start data Ingestion")
+            logging.info("Start data Ingestion")
 
             data_ingestion = DataIngestion(
                 data_ingestion_config=self.data_ingestion_config
@@ -49,7 +49,7 @@ class TrainingPipeline:
 
             data_ingestion_artifact = data_ingestion.initiate_data_ingestion()
 
-            logger.info(
+            logging.info(
                 f"Data Ingestion completed and artifact: {data_ingestion_artifact}"
             )
 
@@ -72,7 +72,7 @@ class TrainingPipeline:
                 data_validation_config=data_validation_config
             )
 
-            logger.info("Initiate the data Validation")
+            logging.info("Initiate the data Validation")
 
             data_validation_artifact = (
                 data_validation.initiate_data_validation()

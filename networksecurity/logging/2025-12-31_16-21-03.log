@@ -1,0 +1,11 @@
+[2025-12-31 16:22:10,919] INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-12-31 16:22:10,926] INFO - Accessing as Hemnixx
+[2025-12-31 16:22:14,869] INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Hemnixx/NetworkSecurity "HTTP/1.1 200 OK"
+[2025-12-31 16:22:16,096] INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-12-31 16:22:16,098] INFO - Initialized MLflow to track repo "Hemnixx/NetworkSecurity"
+[2025-12-31 16:22:16,099] INFO - Repository Hemnixx/NetworkSecurity initialized!
+[2025-12-31 16:22:16,987] ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
