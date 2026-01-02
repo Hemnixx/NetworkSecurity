@@ -11,7 +11,6 @@ print(mongo_db_url)
 import pymongo
 from networksecurity.exception.exception import NetworkSecurityException
 from networksecurity.logging.logger import logging
-from networksecurity.pipeline.training_pipeline import TrainingPipeline
 
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI, File, UploadFile,Request
@@ -53,12 +52,11 @@ async def index():
 
 @app.get("/train")
 async def train_route():
-    try:
-        train_pipeline=TrainingPipeline()
-        train_pipeline.run_pipeline()
-        return Response("Training is successful")
-    except Exception as e:
-        raise NetworkSecurityException(e,sys)
+    from networksecurity.pipeline.training_pipeline import TrainingPipeline
+    train_pipeline = TrainingPipeline()
+    train_pipeline.run_pipeline()
+    return {"message": "Training completed"}
+
     
 @app.post("/predict")
 async def predict_route(request: Request,file: UploadFile = File(...)):
