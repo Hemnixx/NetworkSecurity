@@ -37,7 +37,6 @@ Production readiness
 
 ✅ Modular, scalable, and production-grade codebase
 
-🏗️ Project Architecture
 NetworkSecurity/
 │
 ├── networksecurity/
@@ -71,6 +70,7 @@ NetworkSecurity/
 ├── final_model/        # Saved models
 ├── requirements.txt
 └── README.md
+
 
 🔄 ML Pipeline Stages
 1️⃣ Data Ingestion
